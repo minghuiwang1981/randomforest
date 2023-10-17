@@ -2,7 +2,7 @@ The folder contains a Random Forest machine learning algorithm to detect meiotic
 
 The raw dataset includes DSB/CO site locations and location features. Class column: 1 represents recombination (DSB or CO) site;  0 represents recombination coldspot site.
 
-The normalized function transforms data into the range of 	-1 to 1
+The normalized function transforms data into the range of 	0 to 1
 norm<-function (x) {
    x<-(x-min(x))/(max(x)-min(x))
 }
